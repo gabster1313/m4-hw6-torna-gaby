@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #fcf2e3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%239C92AC' fill-opacity='0.2'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+header {
+    background-color: #D1E0D1;
+    padding: 40px;
+    border-bottom: solid 5px #db8c37;
+    margin-bottom: 20px;
+}
+
+h1{
+    display: inline-block;
+    width: 38%;
+    font-family: "bely";
+    color: #506543;
+    font-size: 45px;
+    height: 38%;
+}
+
+nav {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+nav a {
+    background-color: #596E49;
+    color: #EFE6EF;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: "Ohno";
+    margin: 25px 25px 25px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+main {
+    display: inline-block;
+    width: 63%;
+    background-color:ghostwhite;
+    padding: 25px;
+}
+
+.headshot {
+    float: left;
+    margin-right: 20px;
+    filter: drop-shadow(10px 10px 10px grey);
+}
+
+p{
+    margin: 15px 0px;
+    font-size: 20px;
+    font-family: serif;
+    line-height: 140%;
+}
+
+.subheading {
+    font-size: 40px;
+    font-family: "Ohno";
+    color: #A6641C;
+    border-bottom: solid 5px #A6641C;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: white;
+    width: 15.5%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: solid 5px #db8c37;
+    font-size: 15px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color:#accbac;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: solid 5px #db8c37;
+    text-align: center;
+    font-weight: bold;
+    color:darkolivegreen
+}
+
+@font-face {
+    font-family: 'Ohno';
+    src: url('fonts/Ohno.ttf');
+}
+
+@font-face {
+    font-family: 'bely';
+    src: url('fonts/bely.ttf');
+}
