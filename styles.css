@@ -17,12 +17,12 @@ header {
 }
 
 h1{
-    display: inline-block;
-    width: 38%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     font-family: "bely";
     color: #506543;
     font-size: 45px;
-    height: 38%;
 }
 
 nav {
@@ -45,11 +45,15 @@ nav a {
 .container {
     max-width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 
 main {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 63%;
     background-color:ghostwhite;
     padding: 25px;
@@ -78,11 +82,12 @@ p{
 
 aside {
     background-color: white;
-    width: 15.5%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 20px;
-    margin-left: 25px;
+    width: 19.5%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-self: flex-start
 }
 
 h3 {
@@ -94,11 +99,12 @@ h3 {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color:#accbac;
     padding: 15px;
     margin-top: 30px;
     border-top: solid 5px #db8c37;
-    text-align: center;
     font-weight: bold;
     color:darkolivegreen
 }
